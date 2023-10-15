@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --bg-color1: #3D9989;
+  --bg-color2: #5AB1E2;
+  --card-bg-color: #FFFFFF;
+  --input-bg-color: #E8F5F3;
+  --input-border-color:#BDE5C8;
+  --btn-color:#4E7D75;
+  --text-color:#132A46;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(119deg, #3D9989 0%, #5AB1E2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .container {
+  height: 50vh;
+  width: 50vw;
+  background: var(--card-bg-color);
+  padding: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wrapper .container .heading {
+  color: var(--text-color);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wrapper .container .mid-content {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--input-bg-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.wrapper .container .mid-content input {
+  padding: 22px;
+  width: 70%;
+  border: 1px solid var(--input-border-color);
+  border-radius: 8px;
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wrapper .container .mid-content a {
+  color: var(--card-bg-color);
+  background: var(--btn-color);
+  padding: 20px;
+  border-radius: 10px;
+}
+.wrapper .container .footer {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.wrapper .container .footer .text {
+  color: var(--text-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wrapper .container .footer .key {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+.wrapper .container .footer .key p {
+  color: var(--text-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.wrapper .container .footer-text {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.7;
+}
+.wrapper .container .feed {
+  color: var(--btn-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

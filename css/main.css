@@ -84,6 +84,9 @@ body {
   align-items: center;
   gap: 10px;
 }
+.wrapper .container .footer .key img {
+  cursor: pointer;
+}
 .wrapper .container .footer .key p {
   color: var(--text-color);
   font-size: 18px;
